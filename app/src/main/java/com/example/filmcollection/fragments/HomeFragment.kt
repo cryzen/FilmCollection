@@ -8,9 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.filmcollection.databinding.FragmentHomeBinding
-import com.example.filmcollection.model.RecyclerViewDataAdapter
-import com.example.filmcollection.model.SectionDataModel
-import com.example.filmcollection.model.SinglePosterModel
+import com.example.filmcollection.adapters.RecyclerViewDataAdapter
+import com.example.filmcollection.models.SectionDataModel
+import com.example.filmcollection.models.SinglePosterModel
 
 class HomeFragment : Fragment() {
 
@@ -38,13 +38,13 @@ class HomeFragment : Fragment() {
     }
 
     private fun createDummyData() {
-        for (i in 1..5){
+        for (i in 1..10){
             val dm = SectionDataModel()
             dm.setHeaderTitle("Section $i")
 
             val singleItem: ArrayList<SinglePosterModel> = ArrayList()
 
-            for (j in 0..5){
+            for (j in 0..10){
                 singleItem.add(SinglePosterModel("Item $j", "Url $j"))
             }
             dm.setAllItemInSection(singleItem)

@@ -1,4 +1,4 @@
-package com.example.filmcollection.model
+package com.example.filmcollection.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.filmcollection.databinding.ListItemBinding
+import com.example.filmcollection.models.SectionDataModel
 
 class RecyclerViewDataAdapter(
     private val mContext: Context,

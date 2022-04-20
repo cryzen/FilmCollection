@@ -1,4 +1,4 @@
-package com.example.filmcollection.model
+package com.example.filmcollection.models
 
 class SinglePosterModel(title: String?, poster: String?){
     private var title: String = title!!

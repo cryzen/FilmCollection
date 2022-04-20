@@ -1,4 +1,4 @@
-package com.example.filmcollection.model
+package com.example.filmcollection.models
 
 class SectionDataModel {
 

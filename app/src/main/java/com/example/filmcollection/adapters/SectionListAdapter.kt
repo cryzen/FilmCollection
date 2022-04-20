@@ -1,4 +1,4 @@
-package com.example.filmcollection.model
+package com.example.filmcollection.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.example.filmcollection.databinding.ListSingleCardBinding
+import com.example.filmcollection.models.SinglePosterModel
 
 class SectionListAdapter(
     private val mContext: Context,
