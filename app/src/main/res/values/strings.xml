@@ -5,4 +5,7 @@
     <string name="profile">Profile</string>
     <string name="sample_text">Sample text</string>
     <string name="poster">poster</string>
+    <string name="profile_avatar">Profile avatar</string>
+    <string name="profile_name">Profile name</string>
+    <string name="favorites">FAVORITES</string>
 </resources>
